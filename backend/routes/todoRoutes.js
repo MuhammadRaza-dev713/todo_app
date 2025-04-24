@@ -1,5 +1,5 @@
 const express = require("express");
-const Todo = require("../models/Todo"); // ✅ Model name should be capitalized
+const Todo = require("../models/Todo.js"); // ✅ Model name should be capitalized
 
 const router = express.Router();
 
